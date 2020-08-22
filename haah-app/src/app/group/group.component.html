@@ -1,0 +1,18 @@
+<section class="content-header">
+    <h1>
+        Groups
+    </h1>
+</section>
+
+
+<section class="content">
+
+    <div class="row">
+        <div class="col-sm-6 col-xs-12" *ngFor="let group of groups">
+            <div class="place-info-box-content">
+                <span class="place-info-box-text">{{group.name}}</span>
+                <span class="place-info-box-detail">{{group.description}}</span>
+            </div>
+        </div>
+    </div>
+</section>

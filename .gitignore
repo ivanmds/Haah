@@ -2,6 +2,9 @@
 api/dist
 api/node_modules
 
+haah-app/dist
+haah-app/node_modules
+
 # Logs
 logs
 *.log
