@@ -2,7 +2,7 @@
   "name": "haah",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "Ivan Meireles Da Silva",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -24,18 +24,18 @@
     "@nestjs/common": "^7.0.0",
     "@nestjs/core": "^7.0.0",
     "@nestjs/platform-express": "^7.0.0",
-    "hbs": "^4.1.1",
+    "@nestjs/swagger": "^4.6.0",
     "ravendb": "^4.1.8",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^6.5.4"
+    "rxjs": "^6.5.4",
+    "swagger-ui-express": "^4.1.4"
   },
   "devDependencies": {
     "@nestjs/cli": "^7.0.0",
     "@nestjs/schematics": "^7.0.0",
     "@nestjs/testing": "^7.0.0",
     "@types/express": "^4.17.3",
-    "@types/hbs": "^4.0.1",
     "@types/jest": "25.2.3",
     "@types/node": "^13.9.1",
     "@types/supertest": "^2.0.8",
